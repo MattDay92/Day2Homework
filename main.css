@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.nav-container{
+    display: flex;
+    padding-top: 15px;
+    background-color: black;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.nav-container h1{
+    align-items: center;
+    color: white;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 50%;
+    color: white;
+}
+
+.nav-buttons a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-buttons a:hover{
+    color: goldenrod;
+}
+
+.blank{
+    background-color: black;
+}
+
+.hero-image{
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.hero-title{
+    position: absolute;
+    font-size: 8vw;
+    width: 60%;
+    font-weight: bold;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.month{
+    max-width: 70%;
+    margin: auto;
+}
+
+.month p{
+    border: 1px solid lightgrey;
+    background-color: rgb(239, 239, 239);
+    padding-left: 50px;
+}
+
+.info-container{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-shrink: 3;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.info-container img{
+    height: 180px;
+    margin-right: 10px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    min-height: 200px;
+}
+
+.raisin-title{
+    font-size: 1.5em;
+}
+
+.read-more{
+    width: 100px;
+    color: white;
+    background-color: rgb(226, 180, 62);
+    text-align: center;
+    padding: 15px;
+}
+
+.read-more p{
+    font-size: 20px;
+}
+
+.read-more a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.read-more a:hover{
+    color: red;
+}
+
+.footer-container{
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.map{
+    max-width: 25%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-container div{
+    color: white;
+    font-size: 0.5em;
+    line-height: 3;
+}
+
+.footer-container a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-container a:hover{
+    color: goldenrod;
+}
+
+.footer-title{
+    font-size: 3em;
+}
+
+i{
+    color: goldenrod;
+}
+
